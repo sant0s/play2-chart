@@ -1,0 +1,10 @@
+.*
+!.gitignore
+logs
+target
+project/project
+project/target
+bin
+activator
+activator.bat
+activator-launch*
