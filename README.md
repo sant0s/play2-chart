@@ -119,8 +119,8 @@ This method will create the chart image and generate an `img` tag with
 the following attributes:
 
 -   `src` set to the Base64-encoded representation of the chart image
--   `width` set to the width of the chart image (**)\
-    ** `height` set to the height of the chart image (\*)
+-   `width` set to the width of the chart image (\*)
+-   `height` set to the height of the chart image (\*)
 
 (\*) These attributes provide rendering hints to the user agent.
 
