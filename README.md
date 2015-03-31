@@ -173,11 +173,7 @@ Additional information
 The examples above illustrate the idiom used for obtaining a `Chart`
 instance and rendering its image using Base64-encoded and raw forms.
 
-`ChartBuilderFactory` is the entry point for chart creation. This
-factory provides methods for obtaining builders of all supported charts.
-
-Once a builder is obtained, different settings can be configured via its
-API.
+`ChartBuilderFactory` is the entry point for chart creation. This factory provides methods for obtaining builders of all supported charts. Once a builder is obtained, different settings can be configured via its API.
 
 Additional information on all supported chart types and builder
 configuration options can be found in the sample application.
