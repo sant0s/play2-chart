@@ -12,23 +12,6 @@ The format of the images is PNG.
 
 This module makes use of the JFreeChart library.
 
-build.sbt setup
------
-
-- Resolver
-
-    @resolvers += Resolver.url("sant0s release repository", url("https://github.com/sant0s/release/raw/master"))(Resolver.ivyStylePatterns)@
-
-- Dependency
-
-    @"name.josesantos" %% "chart" % "{version}"@
-
-where {version} is taken from the first column of the following table:
-
-| Module | Play | Description |
--------------------------------
-| 0.1.0   | 2.3.X | First version.|
-
 Quick example
 -------------
 
@@ -42,11 +25,32 @@ Quick example
 
     @img(pieChart)
 
+build.sbt setup
+-----
+
+Resolver:
+
+```
+@resolvers += Resolver.url("sant0s release repository", url("https://github.com/sant0s/release/raw/master"))(Resolver.ivyStylePatterns)@
+```
+
+Dependency:
+
+```
+@"name.josesantos" %% "chart" % "{version}"@
+```
+
+where `{version}` is taken from the first column of the following table:
+
+| Module | Play  | Description    |
+| ------ | ----- | -------------- |
+| 0.1.0  | 2.3.X | First version. |
+
+
 Sample application
 ------------------
 
-A sample application can be found under the `samples` directory. It
-provides documentation and examples of all supported charts.
+A sample application can be found at [https://github.com/sant0s/play2-chart-sample](https://github.com/sant0s/play2-chart-sample). It provides documentation and examples of all supported charts.
 
 Introduction
 ------------
