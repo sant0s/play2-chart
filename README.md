@@ -1,7 +1,7 @@
 Play 2 Chart module
 ===================
 
-The Chart module allows for easy generation of chart images. The following chart types are supported:
+The [Play 2 Chart module](https://github.com/sant0s/play2-chart) allows for easy generation of chart images. The following chart types are supported:
 
 -   Bar
 -   Line
